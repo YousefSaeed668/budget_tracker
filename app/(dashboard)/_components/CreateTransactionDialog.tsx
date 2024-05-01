@@ -144,7 +144,7 @@ const CreateTransactionDialog = ({ trigger, type }: Props) => {
                 </FormItem>
               )}
             />
-            <div className="flex items-center flex-wrap justify-between gap-2">
+            <div className="flex items-center max-[480px]:flex-wrap justify-between gap-2">
               <FormField
                 control={form.control}
                 name="category"
