@@ -69,7 +69,7 @@ function CategoryList({ type }: { type: TransactionType }) {
     <SkeltonWrapper isLoading={categoriesQuery.isLoading}>
       <Card>
         <CardHeader>
-          <CardTitle className="flex items-center justify-between gap-2">
+          <CardTitle className="flex items-center justify-between gap-2 flex-wrap">
             <div className="flex items-center gap-2">
               {type === "expense" ? (
                 <TrendingDown className="h-12 w-12 items-center rounded-lg bg-red-400/10 p-2 text-red-500" />
